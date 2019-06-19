@@ -1,0 +1,7 @@
+## sample payload to make call
+
+  {
+"forecastId": 99,
+"forecastDate": "2019-06-15T04:58:21.244+0000",
+"zone": "south"
+}

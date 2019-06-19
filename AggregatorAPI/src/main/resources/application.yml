@@ -1,0 +1,19 @@
+#########docs.spring.io################
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      #bootstrap-servers: localhost:9092
+      group-id: group_id
+      auto-offset-reset: earliest
+     # key:
+      #  deserializer: org.agg.rest.mavenproject.aggregatorapi.transport.ForecastDeserializer
+     # value:
+     #   deserializer: org.agg.rest.mavenproject.aggregatorapi.transport.ForecastDeserializer
+    producer:
+      bootstrap-servers: localhost:9092
+      #key:
+     #   serializer: org.agg.rest.mavenproject.aggregatorapi.transport.ForecastSerializer
+     # value:
+     #   serializer: org.agg.rest.mavenproject.aggregatorapi.transport.ForecastSerializer		
+     
